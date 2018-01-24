@@ -1,0 +1,102 @@
+* {margin: 0; paddinsg: 0;}
+ 
+#container {
+	width: 1000px;
+	overflow: hidden; 
+	margin: auto;
+}
+body{
+	background: #f79d00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*header*/
+ 
+h1 {
+	margin:20px;
+	letter-spacing: 1.5px;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Risque', cursive;;
+	
+}
+ 
+/*photobanner*/
+img{
+	width:350px;
+	height: 233px;
+} 
+
+
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 50px;
+}
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 65s linear infinite;
+	   -moz-animation: bannermove 65s linear infinite;
+	    -ms-animation: bannermove 65s linear infinite;
+	     -o-animation: bannermove 65s linear infinite;
+	        animation: bannermove 65s linear infinite;
+}
+ 
+.second{
+	-webkit-animation: bannermove 60s linear infinite;
+	   -moz-animation: bannermove 60s linear infinite;
+	    -ms-animation: bannermove 60s linear infinite;
+	     -o-animation: bannermove 60s linear infinite;
+	        animation: bannermove 60s linear infinite;
+} 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
